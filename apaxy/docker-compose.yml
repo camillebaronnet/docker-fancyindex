@@ -1,0 +1,6 @@
+fancin:
+    build: .
+    ports:
+        - 8888:80
+    volumes:
+        - ./data:/var/www
